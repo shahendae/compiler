@@ -8,3 +8,6 @@ convert the resulting NFA to a DFA and minimize it .
 Syntax Analyzer creates the syntactic structure of the given source program.
 The syntax of a programming is described by a context-free grammar (CFG).
 The syntax analyzer (parser) checks whether a given source program satisfies the rules implied by a context-free grammer or not
+
+The parser generator expects an LL (1) grammar as input so it eliminating grammar left recursion and performing left factoring
+then computes First and Follow sets and uses them to construct a predictive parsing table for the grammer.
