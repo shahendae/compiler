@@ -1,6 +1,0 @@
-float count;
-float sum;
-if (sum <= 0)
-{
-sum = sum + 12;
-}
